@@ -1,0 +1,45 @@
+#category_content {
+	color: #000;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+#category_content {
+	/*border: 1px solid #ddd;*/
+	padding: 20px;
+	margin-bottom: 15px;
+}
+#category_content img {
+	/*border: 1px solid #ddd;*/
+	margin: 0 23px 0 0;
+}
+#category_content .product_name{
+	display: block;
+	padding: 10px 0 8px 0;
+	border-bottom: 1px solid #ddd;
+	width: 223px;
+}
+#category_content .price {
+	color: #cacaca ;
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+#categoryNav {
+	clear: both;
+	margin: 5px auto;
+	padding: 1px 0;
+	display: block;
+	text-align: center;
+}
+#categoryNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+#categoryNav a.active {
+	background-position:0 -22px;
+}

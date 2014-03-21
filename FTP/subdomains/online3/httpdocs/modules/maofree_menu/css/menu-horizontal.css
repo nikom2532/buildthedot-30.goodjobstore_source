@@ -1,0 +1,56 @@
+ul.maomenu-horizontal,
+ul.maomenu-horizontal li,
+ul.maomenu-horizontal ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+ul.maomenu-horizontal {
+   position: inherit;
+   float: left;
+   z-index: 100;
+}
+
+ul.maomenu-horizontal a {
+	display: block;
+}
+
+ul.maomenu-horizontal li {
+   position: relative;
+   float: left;
+   vertical-align: middle;
+}
+
+ul.maomenu-horizontal li.hover,
+ul.maomenu-horizontal li:hover {
+   position: relative;
+   z-index: 101;
+   cursor: default;
+	visibility:	inherit; /* fixes IE7 'sticky bug' */
+}
+
+ul.maomenu-horizontal ul {
+   visibility: hidden;
+   position: absolute;
+   top: 100%;
+   left: 0;
+	box-shadow: 3px 3px 3px #999999;
+	-moz-box-shadow: 3px 3px 3px #999999;
+	-webkit-box-shadow: 3px 3px 3px #999999;
+}
+
+ul.maomenu-horizontal ul li {
+   float: none;
+   font-weight: normal;
+	border-right: none;
+}
+
+ul.maomenu-horizontal ul ul {
+   top: 5px;
+   left: 98%;
+}
+
+ul.maomenu-horizontal li:hover > ul {
+   visibility: visible;
+}

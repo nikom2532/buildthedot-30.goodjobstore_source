@@ -1,0 +1,18 @@
+/* block top languages */
+#header_right #languages_block_top {
+	margin: 10px 0px 0px 0px;
+	float: right;
+	border: 0px solid red;
+}
+#header_right #languages_block_top p { /*clear: left */}
+#languages_block_top {
+	width: 50px
+}
+#languages_block_top ul#first-languages li {
+	float: right;
+	margin-right: 3px
+}
+#languages_block_top ul#first-languages li.selected_language {
+	float: right;
+	margin-right: 0.3em
+}

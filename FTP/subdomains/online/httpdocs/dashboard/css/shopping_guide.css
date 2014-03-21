@@ -1,0 +1,209 @@
+#title_head {
+	clear: both;
+	text-transform:uppercase;
+	color: #000;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin: 10px 0 40px 0;
+	padding-bottom: 15px;
+	border-bottom: 20px solid #000;
+	margin-bottom: 20px;
+}
+p {
+	padding-left: 0;
+	margin: 0.5em 0;
+	line-height: 14px;
+}
+h2 {
+	font-size: 20px;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+}
+h3 {
+	font-size: 16px;
+	margin: 0.75em 0 0.3em 0;
+	color: #374853;
+}
+h4 {
+	font-size: 11px;
+	font-weight: bold;
+}
+b {
+	font-weight: bold;
+}
+#content {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 286px;
+}
+/* --- Left Colum ---*/
+#leftcolum{
+	float: left;
+	width: 180px;
+	min-height: 300px;
+	margin: 0px 10px 10px 0px;
+	background: url(../images/shopping_guide_header.jpg) no-repeat top left;
+}
+#leftcolum ul {
+	margin: 170px 0px 0px 0px;
+	padding: 0px;
+}
+#leftcolum li{
+	margin-bottom: 4px;
+	padding-bottom: 3px;
+}
+#leftcolum a {
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	padding: 3px 5px;
+}
+#leftcolum a:hover{
+	background: #000;
+	color: #FFF;
+}
+#leftcolum a.active {
+	background: black;
+	color: white;
+}
+/* --- Center Colum ---*/
+#center_content {
+	color: #000;
+}
+#centercolum {
+	float: left;
+	width: 365px;
+	display: block;
+	padding: 0px 0px 0px 35px;
+	margin-bottom: 10px;
+	border-left: 2px solid #CCC;
+	color: #000;
+}
+#centercolum ul {
+	list-style-type: square;
+	margin-left: 10px;
+}
+/* --- Right Colum ---*/
+#rightcolum{
+	float: left;
+	width: 350px;
+	display: block;
+	padding: 0px 0px 0px 58px;
+}
+#tblContact{
+	text-align: left;
+}
+#tblContact td{
+	border: none;
+	text-align: left;
+	padding-bottom: 5px;
+}
+#tblContact input, #tblContact #message{
+	border: 1px solid #231f20;
+}
+
+#tblContact #email,{
+	width: 165px;
+}
+#tblContact #country{
+	margin-left: 10px;
+}
+#country {
+	width: 174px;
+}
+#name {
+	width: 348px;
+}
+#tblContact {
+	width: 348px;
+}
+#message {
+	width: 346px;
+}
+ #tblContact {
+ 	width: 348px;
+}
+#btnSend {
+	width: 351px;
+}
+#tblContact #btnSend{
+	background: #000;
+	color: #fff;
+}
+#tblContact #btnSend:hover{
+	background: #333;
+}
+
+#blockContact{
+	margin-top: 20px;
+}
+#blockContact h2{
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+	margin: 0px 0px 10px 0px;
+	color:#000;
+}
+
+/* ----- Payment ----- */
+#bodyContent {
+	color: #000;
+}
+#bodyContent h2 {
+	font-weight:normal;
+	color: #374853;
+}
+
+/* ----- Scrollbar Style ----- */
+#scrollbar1 { 
+	margin: 0 0 10px; 
+	padding-bottom: 5px;
+	border-style: dotted;
+}
+#scrollbar1 .viewport { 
+	width: 600px; 
+	height: 443px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#scrollbar1 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar1 .scrollbar { 
+	background: #ddd; 
+	position: relative; 
+	background-position: 0 0; 
+	float: right; 
+	width: 3px; 
+}
+#scrollbar1 .track { 
+	background: #ddd; 
+	height: 100%; 
+	width:3px; 
+	position: relative; 
+	padding: 0; 
+}
+#scrollbar1 .thumb { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 15px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+#scrollbar1 .thumb .end { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 15px; 
+}
+#scrollbar1 .disable { 
+	display: none; 
+}

@@ -1,0 +1,130 @@
+.ddsmoothmenu
+{
+	font: 13px Verdana;
+	background: none;
+	width: 738px;
+	border-bottom: 1px solid black;
+	float:left;
+}
+
+.ddsmoothmenu ul
+{
+	z-index:999;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li
+{
+	position: relative;
+	display: inline;
+	float: left;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a
+{
+	display: block;
+	background: none;
+	color: black;
+	padding: 4px 3px 3px  3px;
+	margin-right:15px;
+	color: #2d2b2b;
+	text-decoration: none;
+}
+
+* html .ddsmoothmenu ul li a
+{ /*IE6 hack to get sub menu links to behave correctly*/
+	display: inline-block;
+}
+
+* html .ddsmoothmenu a
+{
+	width: 100%;
+}
+
+.ddsmoothmenu ul li a.selected
+{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	background: black; 
+	color: #ddd;
+}
+
+.ddsmoothmenu ul li a:hover
+{
+	background: black; /*background of menu items during onmouseover (hover state)*/
+	color: #ddd;
+}
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul
+{
+	position: absolute;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li
+{
+	display: list-item;
+	float: none;
+	white-space:nowrap;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul
+{
+	top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a
+{
+	color:#ddd;
+	font: normal 11px Verdana;
+	letter-spacing:1.0px;
+	padding: 1px 10px 1px 10px;
+	/* min-width: 160px; */
+	border-top-width: 0;
+	background-color: black;
+	border-top:5px solid #000;
+	border-right: 5px solid #000;
+	border-left: 5px solid #000;
+	border-bottom: 5px solid #000;
+	margin-right:0px;
+}
+
+.ddsmoothmenu ul li ul li a:hover
+{
+	color:black;
+	background-color:#ddd;
+}
+
+.ddsmoothmenu ul li ul li a.selected
+{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+	background: #ddd; 
+	color: black;
+}
+
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+

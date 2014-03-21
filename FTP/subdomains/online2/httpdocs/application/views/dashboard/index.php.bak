@@ -1,0 +1,283 @@
+<script type="text/javascript" src="js/charts/chart.js"></script>
+<script type="text/javascript" src="js/charts/hBar_side.js"></script>
+
+<?php
+	$user = $this->session->userdata('user');	
+?>
+
+<!-- Sidebar begins -->
+<div id="sidebar">
+	
+	<!-- Main nav -->
+	<?
+		$data['active_menu'] = '1';
+		echo $this->load->view('templates/main_menu', $data);
+	?>
+    
+    <!-- Secondary nav -->
+    <?=$this->load->view('templates/second_menu')?>
+   
+</div>
+<!-- Sidebar ends -->
+    
+    
+<!-- Content begins -->
+<div id="content">
+    <div class="contentTop">
+        <span class="pageTitle"><span class="icon-screen"></span>Dashboard</span>
+
+		<!-- Quick Stats -->
+		<?=$this->load->view('templates/quick_stats')?>
+
+        <div class="clear"></div>
+    </div>
+    
+    <!-- Breadcrumbs line -->
+    <div class="breadLine">
+        <div class="bc"> 
+            <ul id="breadcrumbs" class="breadcrumbs">
+                <li class="current"><a href="<?=site_url('dashboard')?>">Dashboard</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+    <!-- Main content -->
+    <div class="wrapper">
+    	<!-- Rounded buttons -->
+		<?=$this->load->view('templates/middle_menu')?>
+    
+    	<!-- Chart -->
+       
+         <div class="fluid">
+                <div class="widget grid6 rightTabs">   
+                    <div class="whead"><h6>Sale Report</h6></div>     
+                    <div class="tabs">
+                        <ul>
+                            <li><a href="#tabs-7">Month</a></li>
+                            <li><a href="#tabs-8">Year</a></li>
+                        </ul>
+                        <div id="tabs-7">
+                           <div class="body"><div class="chart"></div></div>      
+                        </div>
+                        <div id="tabs-8">
+                           <div class="body"><div class="chart"></div></div>      
+                        </div>
+                    </div>
+                </div>
+
+				<div class="widget grid6 rightTabs">   
+                    <div class="whead"><h6>Traffic Report</h6></div>     
+                    <div class="tabs">
+                        <ul>
+                            <li><a href="#tabs-7">Month</a></li>
+                            <li><a href="#tabs-8">Year</a></li>
+                        </ul>
+                        <div id="tabs-7">
+                           <div class="body"><div class="chart"></div></div>      
+                        </div>
+                        <div id="tabs-8">
+                           <div class="body"><div class="chart"></div></div>      
+                        </div>
+                    </div>
+                </div>
+                    
+              
+        </div>
+    	
+    
+    	<!-- table -->
+        <div class="fluid">
+            
+            <!-- last 5 orders -->
+            <div class="widget grid6">
+            <div class="whead"><h6>Last 5 Orders</h6><div class="clear"></div></div>
+            
+            <table cellpadding="0" cellspacing="0" width="100%" class="tDefault">
+                <thead>
+                    <tr>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+			<!-- best seller -->
+            <div class="widget grid6">
+            <div class="whead"><h6>Best Seller</h6><div class="clear"></div></div>
+            
+            <table cellpadding="0" cellspacing="0" width="100%" class="tDefault">
+                <thead>
+                    <tr>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>    
+        
+        <!-- table -->
+        <div class="fluid">
+        	
+            <!-- new customers -->
+            <div class="widget grid6">    
+            	<div class="whead"><h6>New Customers</h6>
+                	<div class="clear"></div>
+                </div>
+            	<table cellpadding="0" cellspacing="0" width="100%" class="tDefault">
+                <thead>
+                    <tr>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                </tbody>
+            	</table>
+        	</div>                    
+ 
+			<!-- stock -->
+			<div class="widget grid6">
+          		<div class="whead"><h6>Stock</h6>
+          		<div class="clear"></div>
+            	</div>
+            
+            	<table cellpadding="0" cellspacing="0" width="100%" class="tDefault">
+                <thead>
+                    <tr>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                        <td>Column name</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td>Row 2</td>
+                        <td>Row 3</td>
+                        <td>Row 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>                    
+        </div>
+    </div>
+    <!-- Main content ends -->
+    
+</div>
+<!-- Content ends -->

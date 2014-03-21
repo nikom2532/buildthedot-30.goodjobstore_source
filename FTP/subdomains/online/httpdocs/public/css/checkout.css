@@ -1,0 +1,541 @@
+#title_head {
+	clear: both;
+	text-transform: uppercase;
+	color: 
+	black;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 10px 0 40px 0;
+	margin: 10px 0 40px 0;
+	padding-bottom: 15px;
+	border-bottom: 2px solid 
+	black;
+	margin-bottom: 10px;
+}
+/* Process Bar */
+#process {
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	clear: both;
+	color: #000;
+	text-transform: uppercase;
+	display: block;
+}
+#process ul {
+
+}
+#process li {
+	width: 200px;
+	display: block;
+	float: left;
+}
+/* Scrolling */
+/* ----- Scrollbar Style ----- */
+#scrollbar1 { 
+	width: 380px; 
+	margin: 0 0 3px; 
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ddd;
+	border-style: dotted;
+}
+#scrollbar1 .viewport { 
+	width: 365px; 
+	height: 120px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#scrollbar1 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar1 .scrollbar { 
+	background: #ddd; 
+	position: relative; 
+	background-position: 0 0; 
+	float: right; 
+	width: 3px; 
+}
+#scrollbar1 .track { 
+	background: #ddd; 
+	height: 100%; 
+	width:3px; 
+	position: relative; 
+	padding: 0; 
+}
+#scrollbar1 .thumb { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 15px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+#scrollbar1 .thumb .end { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 15px; 
+}
+#scrollbar1 .disable { 
+	display: none; 
+}
+/* ----- Scrollbar Style ----- */
+#scrollbar2 { 
+ 	margin: 0 0 10px; 
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ddd;
+	border-style: dotted;
+}
+#scrollbar2 .viewport { 
+
+	height: 280px; 
+	overflow: hidden; 
+	position: relative; 
+}
+#scrollbar2 .overview { 
+	list-style: none; 
+	position: absolute; 
+	left: 0; top: 0; 
+	padding: 0; 
+	margin: 0; 
+}
+#scrollbar2 .scrollbar { 
+	background: #ddd; 
+	position: relative; 
+	background-position: 0 0; 
+	float: right; 
+	width: 3px; 
+}
+#scrollbar2 .track { 
+	background: #ddd; 
+	height: 100%; 
+	width:3px; 
+	position: relative; 
+	padding: 0; 
+}
+#scrollbar2 .thumb { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; 
+	height: 20px; 
+	width: 15px; 
+	cursor: pointer; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0; 
+	left: -5px; 
+}
+#scrollbar2 .thumb .end { 
+	background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; 
+	overflow: hidden; 
+	height: 5px; 
+	width: 15px; 
+}
+#scrollbar2 .disable { 
+	display: none; 
+}
+
+/* Billing */
+#billing {
+	clear: both;
+	color: #000;
+	padding: 10px 0;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+#billing h4 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#billing tr.tr_line {
+	border-bottom: 1px solid gray;
+	border-style: dotted;
+}
+#billing a {
+	display: block;
+	width: 110px;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#billing a:hover {
+	display: block;
+	width: 110px;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#billing .right {
+	float: right;
+	width: 360px;
+	padding:0 20px;
+}
+#billing .left {
+	float: left;
+	width: 580px;
+	padding: 10px 0;
+	border-top: 1px solid #ddd;
+
+}
+#billing tr {
+	height: 30px;
+}
+#billing .star {
+	color: red;
+}
+#billing input[type=text] {
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 3px 5px;
+	width: 315px;
+}
+#billing form {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+#billing input[type=submit] {
+	display: block;
+	width: 130px;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+	border: 0px;
+	margin-right:20px;
+	/*font-size: 13px;*/
+}
+.styled-select select {
+	background: #ddd;
+	border: 0px;
+	width: 325px; 
+	height: 23px;
+}
+#lineCheckout {
+	margin-top: 10px;
+	border-top: 1px solid #000;
+}
+#same_address{
+	float: right;
+	padding: 10px 0;
+}
+#same_address input[type=checkbox] {
+	margin: 0 10px;
+}
+#shipping_address {
+	padding: 10px 0px;
+}
+#cart_title {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ddd;
+	border-style: dotted;
+}
+#shipping {
+	margin-top: 10px;
+	margin-left: 150px;
+}
+#shipping .tcl {
+	vertical-align: top;
+}
+#shipping td {
+	padding: 5px;
+}
+#item {
+	padding: 10px 0 5px 0;
+	display: block;
+	height: 130px;
+	clear: both;
+	/* border-bottom: 1px solid #ddd; */
+	font-size: 12px;
+}
+#item .price{
+	font-weight: bold;
+	font-size: 18px;
+}
+#char_right {
+	float: right;
+}
+input.text {
+	width: 20px;
+	margin:0 20px;
+	border: 1px solid #000;
+	padding: 3px;
+	text-align: center;
+}
+#char_left {
+	float: left;
+	width: 160px;
+} 
+/* Confirmation */
+#confirmation {
+	clear: both;
+	color: #000;
+	padding: 10px 0;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+#confirmation p {
+	padding-bottom: 20px;
+}
+#confirmation_title {
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ddd;
+	border-style: dotted;
+	width: 580px;
+}
+#confirmation .right {
+	float: right;
+	width: 360px;
+	height: 309px;
+	padding:0 20px;
+	border-left: 1px solid #000;
+}
+#confirmation .left {
+	float: left;
+	width: 580px;
+	height: 309px;
+	padding: 10px 0;
+}
+#confirmation h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+#confirmation .back_button {
+	float: right;
+}
+#confirmation a {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#confirmation a:hover {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#confirmation .item {
+	padding-bottom: 40px;
+}
+#confirmation .code {
+	font-size: 42px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+/* Payment */
+#payment {
+	clear: both;
+	color: #000;
+	padding: 7px 0;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+#payment .right {
+	float: right;
+	width: 360px;
+	padding:0 20px;
+}
+#payment .left {
+	float: left;
+	width: 580px;
+	padding: 0;
+}
+#payment a {
+	display: block;
+	width: 110px;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	/*font-size: 13px;*/
+}
+#payment a:hover {
+	display: block;
+	width: 110px;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+#payment input[type=submit] {
+	display: block;
+	width: 130px;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+	border: 0px;
+	/*font-size: 13px;*/
+}
+#payment input[type=submit]:hover {
+	display: block;
+	width: 130px;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+	border: 0px;
+	/*font-size: 13px;*/
+}
+
+#table_payment {
+	padding: 20px 0 20px 40px;
+	font-size: 12px;
+}
+#payment .tcl {
+	vertical-align: top;
+}
+/* Order Detail */
+#review_order {
+	clear: both;
+	color: #000;
+	padding: 7px 0;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+#review_order .right {
+	float: right;
+	width: 360px;
+	padding:0 20px;
+}
+#review_order .left {
+	float: left;
+	width: 580px;
+	padding: 0;
+}
+#review_order .right a{
+	display: block;
+	width: 110px;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#review_order .right a:hover {
+	display: block;
+	width: 110px;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#review_order_title {
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ddd;
+	border-style: dotted;
+}
+#order_detail {
+	padding-top: 10px;
+}
+#order_detail h3{
+	font-weight:bold;
+	font-size: 16px;
+	display: inline;
+}
+#order_detail .title {
+	border-bottom: 2px solid #ccc;
+	border-style: dotted;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#order_detail .detail_left{
+	float: left;
+	width: 275px;
+	padding-right: 10px;
+	border-right: 2px solid #ccc;
+	border-style: dotted;
+	height: 330px;
+}
+#order_detail .detail_right{
+	float: right;
+	width: 280px;
+}
+#order_detail .email {
+	color: #919191;
+	font-size: 12px;
+	padding: 40px 0 20px 0;
+}
+
+#review_order input[type=submit] {
+	display: block;
+	width: 130px;
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+	border: 0px;
+	margin-right:20px;
+	/*font-size: 13px;*/
+}
+#review_order input[type=submit]:hover {
+	display: block;
+	width: 130px;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+	border: 0px;
+		/*font-size: 13px;*/
+}
+
+#changeBt {
+	float: right;
+}
+#changeBt a {
+	background: #000;
+	color: #fff;
+	padding: 5px 20px;
+	width: 150px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+#changeBt a:hover {
+	background: #333;
+	color: #fff;
+	padding: 5px 20px;
+	width: 150px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+#co_space {
+	clear: both;
+	padding: 5px;
+}
+#address td {
+	padding: 7px 0;
+}
+#price_total {
+	font-size: 12px;
+}
+#price_total td{
+	padding: 0px;
+}
+#payment_order_total {
+	margin-top: 20px;
+}

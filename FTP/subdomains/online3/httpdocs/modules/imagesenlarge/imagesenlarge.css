@@ -1,0 +1,48 @@
+#msBigImageHolder {
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position:absolute;
+	background:#ffffff;
+	margin-left:4px;
+	padding:10px;
+	display:none;
+	border:5px solid #006CA7;
+}
+#msImageShadow {
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	position:absolute;
+	background:#000000;
+	margin-left:4px;
+	padding:10px;
+	display:none;
+	border:5px solid #000000;
+}
+#imgHolder {
+	position:relative;
+	width:auto;
+	margin:auto;
+}
+
+#smallImg {
+	position:relative;
+}
+
+.msPadding{
+	padding:10px;
+	border:1px solid #c3c3c3;	
+}
+
+#msBigImageHolder_main {
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	display:none;
+	position:absolute;
+	background:#ffffff;
+	margin-left:4px;
+	padding:10px;
+	border:2px solid #c3c3c3;
+}

@@ -1,0 +1,45 @@
+    span#slide_box_sp{  
+        display:block;  
+        float:left;  
+    }  
+    div.go_l_nav
+	{  
+		display:block;  
+        cursor:pointer;  
+        background: url("../images/arrowleft.jpg");
+        float:left;  
+    }  
+    div.go_r_nav
+	{  
+		display:block;  
+        cursor:pointer;  
+        background: url("../images/arrowright.jpg");
+        float:left;  
+    }  
+    div.content_slide
+	{
+        display:block;  
+        margin:0px;  
+        float:left;  
+        overflow:hidden;  
+    }  
+    
+	a.list_nav{  
+        font-size:11px;  
+        text-align:center;  
+        float:left;  
+        margin:0px;  
+        color:#333333;  
+    }  
+    a.list_nav:hover{  
+        font-size:11px;  
+        text-align:center;  
+        float:left;  
+        margin:0px;  
+        color:#621cc4;    
+    }
+
+    div#content_slide_in{  
+        display:block;  
+        margin-left:0px;  
+    }

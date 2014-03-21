@@ -1,0 +1,31 @@
+/* CSS Document */
+.homebanner{
+	border: 0px solid red;
+	display: block;
+	width: 30%;
+	height: 430px;
+	float: right;
+}
+
+.homebanner ul{
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+}
+
+.homebanner ul li img{
+	width: 100%;
+	height: auto;
+	border: none;
+	border: 0px solid red;
+}
+
+.homebanner ul li{
+	border: 0px solid #bbbdbf;
+	width: auto;
+	height: 210px;
+	margin: 0px 0px 10px 0px;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+}

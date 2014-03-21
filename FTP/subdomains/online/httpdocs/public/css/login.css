@@ -1,0 +1,88 @@
+#welcome {
+	clear: both;
+	text-transform:uppercase;
+	color: #000;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 20px 0 35px 0;
+	padding-bottom: 15px;
+	border-bottom: 20px solid #000;
+}
+#content {
+	display: block;
+	padding-bottom: 40px;
+	height: 399px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#signin {
+	float: left;
+	width: 480px;
+	padding-right: 10px;
+}
+#signup {
+	float: right;
+	width: 480px;
+	padding-left: 20px;
+	border-left: 2px solid #b2b2b2;
+}
+#signup .newsletter {
+	float: right;
+	padding: 20px 0 0 0;
+}
+#signup .register_button {
+	margin-top: 10px;
+	text-align: right;
+}
+.headerblock {
+	display: block;
+	padding-top: 15px;
+	border-top: 2px solid #b2b2b2;
+	font-size: 14px;
+	color: #000;
+}
+.smalltext {
+	margin: 5px 0 20px 0;
+	padding-top: 8px;
+	border-top: 2px solid #b2b2b2;
+	font-size: 12px;
+	color: #000;
+}
+.notice {
+	font-size: 11px;
+	padding-top: 5px;
+}
+#textbox_name {
+	margin: 15px 0px 5px 0px;
+}
+
+#content input[type=text],input[type=password] {
+	border: 1px solid #b2b2b2;
+	padding: 5px;
+	width: 469px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#content input[type=checkbox] {
+	outline: 0px solid #000;
+}
+#content .button{
+	border: 1px solid #000;
+	margin: 5px 0px 20px 0px;
+	padding: 5px 30px;
+	background: #000;
+	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+}
+#content .button:hover {
+	color: #DDD;
+	border: 1px solid #fff;
+}
+.forgetpassword {
+	padding: 5px 0 30px 0;
+}
+.forgetpassword a{
+	font-size: 11px;
+	color: #000;
+}

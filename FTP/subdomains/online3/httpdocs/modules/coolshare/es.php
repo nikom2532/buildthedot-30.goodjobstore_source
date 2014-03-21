@@ -1,0 +1,32 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{coolshare}prestashop>coolshare_5ce23778cd5a75278c5a5838804d3443'] = 'Bloque de la cuota social,';
+$_MODULE['<{coolshare}prestashop>coolshare_449cda2050c70d66d01969123e85d5a0'] = 'Agrega un bloque para mostrar los marcadores sociales - www.catalogo-onlinersi.com.ar';
+$_MODULE['<{coolshare}prestashop>coolshare_c888438d14855d7d96a2724ee9c306bd'] = 'Configuración actualizada';
+$_MODULE['<{coolshare}prestashop>coolshare_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuración';
+$_MODULE['<{coolshare}prestashop>coolshare_e924201b842388eae4bd0f8f1d2b7107'] = 'Ancho de las imágenes';
+$_MODULE['<{coolshare}prestashop>coolshare_36244c9637c0b6dcd6a0061cf90f785b'] = 'Ancho de las imágenes';
+$_MODULE['<{coolshare}prestashop>coolshare_33ac7a5a6b53e78e560fd0901cd96985'] = 'Ancho del módulo';
+$_MODULE['<{coolshare}prestashop>coolshare_2d7fe02deaf9b51340be965f7db66ef2'] = 'Ancho de los módulos (200 por defecto)';
+$_MODULE['<{coolshare}prestashop>coolshare_1f314d4545b044b87d525f843c179a20'] = 'Altura del módulo';
+$_MODULE['<{coolshare}prestashop>coolshare_c0c5416a15ba59aba085ab8a778c036e'] = 'Altura del módulo (48 por defecto)';
+$_MODULE['<{coolshare}prestashop>coolshare_93f562d73c014e40a4dd4ce82f7d6cc1'] = 'Margen izquierda del módulo';
+$_MODULE['<{coolshare}prestashop>coolshare_d0efb46cfd8b126482192a343e2142b4'] = 'Formato de la imagen';
+$_MODULE['<{coolshare}prestashop>coolshare_52f5e0bc3859bc5f5e25130b6c7e8881'] = 'Posición';
+$_MODULE['<{coolshare}prestashop>coolshare_3832fc9ce55fc92562c0e4b6aac54def'] = 'Technorati';
+$_MODULE['<{coolshare}prestashop>coolshare_898153e542ab70aa558a97a80955830d'] = 'Delicioso';
+$_MODULE['<{coolshare}prestashop>coolshare_b632c55a33530d1433e29ffc09ba1151'] = 'Reddit';
+$_MODULE['<{coolshare}prestashop>coolshare_d85544fce402c7a2a96a48078edaf203'] = 'Facebook';
+$_MODULE['<{coolshare}prestashop>coolshare_2491bc9c7d8731e1ae33124093bc7026'] = 'Gorjeo';
+$_MODULE['<{coolshare}prestashop>coolshare_c46526afaf8301c71b765234ae23dc8b'] = 'Stumbleupon';
+$_MODULE['<{coolshare}prestashop>coolshare_1334b6ec0ff0dc970481738a2374448c'] = 'Yahoo';
+$_MODULE['<{coolshare}prestashop>coolshare_9c393f1c3d00f6f6ab7f2f393508cf5d'] = 'Digg';
+$_MODULE['<{coolshare}prestashop>coolshare_3b0f3a25d07e5d9dbdf98db15ee70410'] = 'Flickr';
+$_MODULE['<{coolshare}prestashop>coolshare_44e2308cdc51a0a1a5350ba3937e0b5e'] = 'Linkedin';
+$_MODULE['<{coolshare}prestashop>coolshare_4dfbb099eafd3c82e033bf92946d3ce6'] = 'Correo';
+$_MODULE['<{coolshare}prestashop>coolshare_c9cc8cce247e49bae79f15173ce97354'] = 'Ahorrar';
+$_MODULE['<{coolshare}prestashop>coolshare_9887a4451812854f0f1b6f669a874307'] = 'Contribuir';
+$_MODULE['<{coolshare}prestashop>coolshare_e8928d746f7cf273fa76aabf3f906216'] = 'Usted puede contribuir con una donación si nuestros módulos libres y los temas son de utilidad para usted. Clic en el enlace y nos apoyan!';
+$_MODULE['<{coolshare}prestashop>coolshare_4ad5cd8425d9ac520903c1819517f0e1'] = 'Para más módulos y temas visite: www.catalogo-onlinersi.com.ar';

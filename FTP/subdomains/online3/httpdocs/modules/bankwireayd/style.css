@@ -1,0 +1,46 @@
+.bank_detail{
+ border:1px solid #ccc;
+ background-color: #e5e6e7;
+ padding:1em;
+}
+.info_bank {
+	float:left;
+	width:100%;
+	margin:0 0 2em 0;
+	border:1px solid #ccc;
+	line-height:3em;
+}
+.info_bank img{
+	float:left;
+	padding:1em 0 0 1.5em;
+}
+.info_bank .bankform{
+	display:block;
+	float:left;
+	width:100%;
+	border-bottom:1px solid #ccc;
+	height:25px;
+}
+.info_bank .banktitle{
+	display:block;
+	float:left;
+	border-bottom:1px solid #fff;
+	height:25px;
+	margin-right:30px;
+}
+
+.info_bank .bankdetail{
+	display:block;
+	float:right;
+	width:75%;
+	height:20px;
+	font-weight: bold;
+}
+.info_bank_left {
+	width:92%;
+	margin:0 auto;
+}
+.info_bank_left .price {
+	color:#3366CC;
+	margin-left:0.5em;
+}

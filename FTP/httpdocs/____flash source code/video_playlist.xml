@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<videos  random="true" auto_start="true" show_progress_bar="true" progress_bar_color="0xff0000" loading_bar_color="0x000000" video_stretch="uniform" pattern="1" show_buffer_indicator="true" full_screen_button="true" position="bottom_right" skip_url="http://www.google.com" skip_btn_text="Skip intro video" loop_list="true">
+	<item url="../videos/gj.mp4" name="Campaign" mute_on_start="false"/>
+</videos>

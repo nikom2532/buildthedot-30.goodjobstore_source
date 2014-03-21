@@ -1,0 +1,197 @@
+/* block top user information */
+#shopping_cart_info {
+	float: right;
+	width: 295px;
+	height: 32px;
+	border: 0px solid #00F;
+	margin: -5px 0px 0px 0px;
+	position: relative;
+}
+#shopping_cart_info p { color: #595a5e }
+#shopping_cart_info span { font-weight: bold;  }
+#shopping_cart_info ul {
+	/*margin-top: 0.3em*/
+	float: right;
+	margin: 0px; 
+	padding: 0px; 
+	list-style: none; 
+	border: 0px solid #00F;
+}
+#shopping_cart_info li {
+/*	line-height: 2em;
+	margin-left: 0.5em;*/
+	white-space: nowrap
+}
+#shopping_cart_info #shopping_cart, #shopping_cart_info #your_account { font-size: 0.9em }
+#shopping_cart_info li#your_account { margin-left: 0 }
+#shopping_cart_info a, #shopping_cart_info #your_account a {
+	padding: 0px;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	color:#000
+}
+
+.btn_cart_info, .btn_store{
+	text-transform: uppercase;
+}
+
+.btn_cart_info{
+	float: left
+}
+
+.btn_store{
+	float: right;
+}
+
+#shopping_cart_info #shopping_cart a { 
+	  /*background-image: url(cart.jpg);
+	  height: 30px;
+	  width: 35px;
+	  border: 1px solid #093;
+	  display: block;
+	  float: left;
+	  padding: 5px 0px 0px 33px;
+*/}
+#shopping_cart_info #your_account a { background-image: url('../../../img/icon/my-account.gif') }
+
+#shopping_cart_info #block_cart_info {
+    display:none;
+    background: URL(bg.png);
+	/*opacity: 0.8;
+	filter: alpha(opacity=80);*/
+    position:absolute;
+    width:275px;
+    z-index:100;
+    padding:10px;
+    top:20px; 
+    left: 0px; 
+    margin-top:15px;
+    margin-left: 0px;
+	color: #FFF;
+}
+
+#block_cart_info a {
+	color: #FFF !important;
+}
+
+#block_cart_info #ajax_cart_block_remove_link {
+	width: 11px;
+	height: 13px;
+	margin-left: 6px;
+	float: right;
+	font-size: 0;
+	border: 1px solid red;
+	display: block;
+	background: transparent url(../../../img/icon/delete.gif) no-repeat left bottom
+}
+
+/* Special style for block cart*/
+#cart_block{
+	border:0px solid red;
+	width: 245px;
+	display: block;
+	margin: 0px auto;
+}
+
+#cart_block dl dt a,
+ #cart_block dl dt span.quantity-formated { float: left }
+#cart_block dl { font-size: 0.9em }
+#cart_block dt { padding-top: 0.4em }
+#cart_block dl span.quantity-formated { padding-right: 1px }
+#cart_block dt, #cart_block dd {
+	clear: both;
+	margin-top: 0.2em
+}
+#cart_block dt { 
+	width: 245px;
+	text-align: right;
+	border: 0px solid #FFF;
+}
+#cart_block dd { width: 155px }
+#cart_block dd { 
+	margin-left: 1em; 
+	margin-right: 1em; 
+	font-style: italic 
+}
+#cart_block dl dt a { font-weight: bold }
+#cart_block a.ajax_cart_block_remove_link {
+	width: 11px;
+	height: 13px;
+	margin-left: 6px;
+	float: right;
+	font-size: 0;
+	display: block;
+	background: transparent url('../../../img/icon/delete.gif') no-repeat left bottom
+}
+#cart_block a.ajax_cart_block_remove_link:hover { text-decoration: none }
+#cart_block p { clear: both }
+#cart_block p span {
+	clear: right;
+	float: left;
+	text-align: right
+}
+#cart_block li { clear: both }
+#cart_block span.price {
+	color: white;
+	float: right
+}
+#cart_block dl span.price {
+	font-weight: normal;
+	color: white;
+	float: none
+}
+
+#cart_block_wrapping_cost, #cart_block_shipping_cost, #cart_block_tax_cost, #cart_block_total { padding-right: 1.3em }
+
+#cart_block table#vouchers {
+	margin-top: 0.5em;
+	border-top: 1px solid white;
+	height: 3em;
+	padding-top: 0.4em;
+	margin-bottom: 0.5em;
+	clear: both
+}
+ #cart_block p#cart-prices {
+	clear: both;
+	margin-top: 8px;
+	margin-bottom: 2em;
+	display: block;
+	padding-top: 0.4em;
+	border-top: 1px solid white
+}
+#cart_block table#vouchers td {
+	padding: 0;
+	border: 0;
+	height: 1.5em
+}
+#cart_block table#vouchers td.price {
+	color: white;
+	font-size: 1em;
+	font-weight: normal;
+	width: 37%;
+	text-align: right
+}
+#cart_block table#vouchers td.delete {
+	width: 9%;
+	text-align: right
+}
+#cart_block table#vouchers td.delete img { margin: 0 }
+#cart_block p#cart-buttons {
+	height: 1.6em;
+	margin:5px -0.3em 0px 0px;
+}
+#cart_block p#cart-buttons a { float: left }
+#cart_block p#cart-buttons a#button_order_cart { float: right }
+#cart_block .cart_block_customizations {
+	margin-left: 6px;
+	list-style-type: square
+}
+#cart_block #cart-price-precisions {
+	margin-top: 0.5em;
+	padding-top: 0.4em;
+	border-top: 1px solid white;
+	font-size: 0.9em;
+	height: 2em
+}

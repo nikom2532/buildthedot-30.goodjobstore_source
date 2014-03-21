@@ -1,0 +1,61 @@
+#explorer {
+	border: 1px solid #DFD5C3;
+	padding: 5px;
+}
+#explorer tr:hover { background-color: #f4e6c9; }
+#explorer td a { text-decoration: none; border:0px; }
+#explorer td a:hover { text-decoration: underline; }
+
+#explorer th {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #f4e6c9;
+	border-bottom: 3px solid #DFD5C3;
+}
+#filebox {
+	margin: 0px;
+	padding: 10px;
+	border: thin solid #CCCCCC;
+	overflow: hidden;
+}
+
+#filebox li {
+	list-style-type: none;
+	float: left;
+	width: auto;
+	margin-right: 10px;
+	display: block;
+}
+	    
+.icon {
+	background-image: url(./sprite.gif);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	height: 17px;
+	padding-top: 3px;
+}
+
+.parent { background-position: 0px -20px; }
+.folder { background-position: 0px -40px;}
+.php { background-position: 0px -60px; }
+.css { background-position: 0px -80px; }
+.js { background-position: 0px -100px; }
+.tpl { background-position: 0px -120px; }
+.html, .htm { background-position: 0px -140px; }
+.jpg, .jpeg, .gif, .png { background-position: 0px -160px; }
+.pdf { background-position: 0px -180px; }
+.swf, .fla { background-position: 0px -200px; }
+.zip, .rar { background-position: 0px -220px; }
+.doc, docx { background-position: 0px -240px; }
+.xls { background-position: 0px -260px; }
+.csv { background-position: 0px -280px; }
+.mdb { background-position: 0px -300px; }
+.ppt { background-position: 0px -320px; }
+.sql { background-position: 0px -340px; }
+.exe { background-position: 0px -360px; }
+.xml { background-position: 0px -380px; }
+.avi, .mpg, .mov, .divx { background-position: 0px -400px; }
+.wav, .mp3 { background-position: 0px -420px; }
+
+a, img {border:none !important; }

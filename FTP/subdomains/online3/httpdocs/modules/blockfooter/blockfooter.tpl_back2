@@ -1,0 +1,5 @@
+<!-- Block footer module -->
+<div>
+<img src="{$modules_dir}/blockfooter/payment_logo.jpg" /><span align="right" style="color:gray" >&copy; 2011 - 2012 GOODJOB CO.,LTD</span>
+</div>
+<!-- /Block footer module -->

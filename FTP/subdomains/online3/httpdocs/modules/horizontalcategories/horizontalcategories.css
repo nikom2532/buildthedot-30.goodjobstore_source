@@ -1,0 +1,106 @@
+.droplinetabs{
+overflow: hidden;
+border-bottom: 1px solid #333; /*underline across bottom of main tabs*/
+width: auto;
+/*border: 0px solid red;*/
+margin: 0px 0px 0px 0px;
+padding-bottom: 0px;
+}
+
+.droplinetabs ul{
+font: 12px Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+width: 100%;
+list-style: none;
+}
+
+.droplinetabs li{
+display: inline;
+margin: 0 0px 0 0;
+padding: 0;
+/*text-transform: uppercase;*/
+}
+
+
+.droplinetabs a{
+float: left;
+color: #000;
+/*background: #c76023 url(leftedge.gif) no-repeat left top;*/ /*default background color of tabs, left corner image*/
+margin: 0 4% 0 0;
+padding: 2px;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+.droplinetabs a:link, .droplinetabs a:visited, .droplinetabs a:active{
+color: #000;
+}
+
+.droplinetabs a span{
+float: left;
+display: block;
+/*background: transparent url(rightedge.gif) no-repeat right top;*/ /*right corner image*/
+padding: 7px 9px 3px 6px;
+cursor: pointer;
+/*height: 76px*/;
+}
+
+.droplinetabs a span{
+float: none;
+/*height: 76px*/;
+}
+
+
+.droplinetabs a:hover{
+/*background-color: #b05016; background color of tabs onMouseover
+color: white;
+*/
+/*height: 76px;*/}
+
+.droplinetabs a:hover span{
+background-color: transparent;
+/*height: 76px;*/
+}
+
+/* Sub level menus*/
+.droplinetabs ul li ul{
+position: absolute;
+z-index: 100;
+left: 0;
+top: -20px;
+background: url(bg.png); /*sub menu background color */
+visibility: hidden;
+padding-left: 0px;
+height: 76px;
+}
+
+
+/* Sub level menu links style */
+.droplinetabs ul li ul li a{
+font: normal 11px  Arial, Helvetica, sans-serif;
+padding: 6px;
+padding-left: 10px;
+margin: 0;
+color: #FFF !important;
+/*background: #c76023; *//*sub menu background color */
+border-bottom: 1px solid #666;
+/*border: 1px solid red;
+*/
+/*height: 76px;*/
+}
+
+.droplinetabs ul li ul li a span{
+/*background: #c76023;*/ /*sub menu background color */
+}
+
+.droplinetabs ul li ul li a:hover{ /*sub menu links' background color onMouseover. Add rounded edges in capable browsers */
+color: #999 !important;
+text-decoration: underline;
+/*background: #714421;
+-webkit-border-radius: 5px;  
+-moz-border-radius: 5px; 
+-khtml-border-radius: 5px;  
+border-radius: 5px;*/
+/*height: 76px;*/
+}

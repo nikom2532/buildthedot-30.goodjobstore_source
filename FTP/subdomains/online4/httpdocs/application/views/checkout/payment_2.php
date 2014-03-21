@@ -1,0 +1,1 @@
+<a href="<?=site_url('checkout/confirmation')?>">Confirm</a>

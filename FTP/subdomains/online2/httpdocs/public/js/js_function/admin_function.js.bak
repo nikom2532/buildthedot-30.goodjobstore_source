@@ -1,0 +1,60 @@
+var url = "http://localhost/platbo/";
+
+function sort_table(sort)
+{
+	var txtSearch = $('#txtSearch').val();
+	$.ajax({
+		type: 'POST',
+		url: url+'admin/admin_table_sort',
+		data: 'sort='+sort+"&txtSearch="+txtSearch,
+		success: function(data){
+			$('#field_id').html(data);
+		}
+	});
+}
+
+function search_table()
+{
+	var txtSearch = $('#txtSearch').val();
+
+	$.ajax({
+		type: 'POST',
+		url: url+'admin/admin_table_search',
+		data: 'txtSearch='+txtSearch,
+		success: function(data){
+			$('#field_id').html(data);
+		}
+	});
+}
+
+function show_all()
+{
+	document.getElementById('txtSearch').value = '';
+	var txtSearch = '';
+
+	$.ajax({
+		type: 'POST',
+		url: url+'admin/admin_table_search',
+		data: 'txtSearch='+txtSearch,
+		success: function(data){
+			$('#field_id').html(data);
+		}
+	});
+}
+
+function delete_admin(id)
+{
+	if(confirm("delete?"))
+	{
+		$.ajax({
+			type: 'POST',
+			url: url+'admin/admin_delete',
+			data: 'id='+id,
+			success: function(data){
+				$('#field_id').html(data);
+			}
+		});
+	}
+	else
+		return false;
+}
